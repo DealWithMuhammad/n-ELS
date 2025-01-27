@@ -190,7 +190,7 @@ const Navbar = ({
           <div className="flex">
             <Link href="/">
               <a href="#">
-                <img className="h-[64px]" src="/svg/logo.svg" alt="" />
+                <img className="h-[74px]" src="/images/logo.png" alt="" />
               </a>
             </Link>
 
