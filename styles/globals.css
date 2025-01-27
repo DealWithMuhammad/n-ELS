@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @font-face {
+  font-family: "Myriad Pro";
+  font-style: normal;
+  font-weight: 100 600;
+  font-display: optional;
+  src: url(/fonts/MYRIADPRO-REGULAR.OTF) format("otf");
+}
+@font-face {
+  font-family: "Myriad Pro";
+  font-style: bold;
+  font-weight: 700 900;
+  font-display: optional;
+  src: url(/fonts/MYRIADPRO-BOLD.OTF) format("otf");
+} */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: myriad-pro, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.triangle {
+  border-left: 22px solid #003056;
+  border-top: 22px solid transparent;
+  height: 0;
+  width: 0;
+  position: absolute;
+  right: -22px;
+  bottom: 25px;
+  z-index: 1;
+}
+.loader div {
+  animation-duration: 0.5s;
+}
+
+.loader div:first-child {
+  animation-delay: 0.1s;
+}
+
+.loader div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.loader div:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.loading-circle {
+  border-top-color: #49479f;
+  -webkit-animation: spinner 1.5s linear infinite;
+  animation: spinner 1.5s linear infinite;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.videoEmbed {
+  position: relative;
+  padding-bottom: 56.25%;
+  margin-bottom: 2rem;
+}
+
+.videoEmbed__iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.hover-up-5 {
+  transition: 0.3s;
+}
+
+.hover-up-5:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+.rounded_button {
+  border-radius: 20px;
+}
+.bg-kindergarten {
+  background: rgba(243, 109, 96, 0.3);
+}
+.bg-primary-division {
+  background: rgba(58, 107, 159, 0.2);
+}
+.bg-secondary {
+  background: rgba(176, 216, 145, 0.3);
+}
+.shadow_navigation {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+.fixed-register {
+  position: fixed;
+  right: 24px;
+  bottom: 90px;
+  z-index: 10;
+}
+/* .cover {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} */
