@@ -43,7 +43,7 @@ const Certificate = ({ id }) => {
               {f({
                 id: "Program.ProgramSummary2",
                 defaultMessage:
-                  "BSA’s students sit for Cambridge Checkpoints, IGCSE, and A Level within the formal curriculum of the school. The school also has been authorized by this international examinations board to deliver international exams on site. This enables our students to obtain international qualifications without going through intermediary organizations.",
+                  "ELS’s students sit for Cambridge Checkpoints, IGCSE, and A Level within the formal curriculum of the school. The school also has been authorized by this international examinations board to deliver international exams on site. This enables our students to obtain international qualifications without going through intermediary organizations.",
               })}
             </p>
             <br />

@@ -31,8 +31,8 @@ const Reason = ({ reasons = [], slug, id }) => {
                 />
                 <span className="relative">
                   {f({
-                    id: "Program.ShouldChooseBSA",
-                    defaultMessage: "should choose BSA",
+                    id: "Program.ShouldChooseELS",
+                    defaultMessage: "should choose ELS",
                   })}
                 </span>
               </span>

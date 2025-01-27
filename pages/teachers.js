@@ -36,13 +36,13 @@ export default function About({ teachers, navigations }) {
           defaultMessage: "Our Teacher",
         })}
         subTitle={f({
-          id: "Teacher.WeAreBSATeam",
-          defaultMessage: "We are BSA's TEAM!",
+          id: "Teacher.WeAreELSTeam",
+          defaultMessage: "We are ELS's TEAM!",
         })}
         description={f({
           id: "Teacher.WePrideOurselves",
           defaultMessage:
-            "We do believe that educating is one of the most challenging jobs in the world. We inspire, motivate, encourage, support and educate Children. We also believe in the power of fun inside and outside of the workplace. Hence, we enjoy daily work by watching student's improvement and happiness. Simultaneously, we bring and share the joy into our team after school. Together, we make team spirit, laughter, motivation, fostering innovation and creativity. We are BSA's TEAM!",
+            "We do believe that educating is one of the most challenging jobs in the world. We inspire, motivate, encourage, support and educate Children. We also believe in the power of fun inside and outside of the workplace. Hence, we enjoy daily work by watching student's improvement and happiness. Simultaneously, we bring and share the joy into our team after school. Together, we make team spirit, laughter, motivation, fostering innovation and creativity. We are ELS's TEAM!",
         })}
         descriptionSize={locale == "vi" ? "max-w-screen-xl" : "max-w-screen-lg"}
         images={TEACHER_IMAGES}

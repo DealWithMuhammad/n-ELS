@@ -78,8 +78,8 @@ export default function Footer() {
               <Link href="/">
                 <a>
                   <img
-                    src="/images/Horizontal-logo.png"
-                    alt="BSA"
+                    src="/images/logo.png"
+                    alt="ELS"
                     className="h-20"
                   />
                 </a>

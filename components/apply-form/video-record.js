@@ -21,7 +21,7 @@ const VideoRecord = () => {
         </h3>
         <p className="mt-2">
           If you already have a video, please email us at{" "}
-          <strong>bluesky@bsa.edu.vn</strong> with your video as an attachment.
+          <strong>bluesky@ELS.edu.vn</strong> with your video as an attachment.
         </p>
         <p className="mt-2">
           Do not forget to fill out the application form at{" "}

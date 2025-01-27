@@ -66,7 +66,7 @@ const HomeHero = () => {
             <p className="max-w-2xl mt-3 text-xl leading-relaxed text-center text-purple-800 lg:text-left">
               {f({
                 id: "Home.SloganHero",
-                defaultMessage: `Established in 2004 and licensed by the Vietnamese Government, ELS School (BSA) is a Cambridge International School with the National Education system offering K-12 education programmes. Our mission is to educate a world-class generation of Vietnamese students who possess scientific knowledge on par with students in developed countries. ELS School students will develop a deep understanding of traditional values, practical living skills and righteous points of view. They will hold responsibilities of what are expected in global citizens, with the courage and confidence needed to integrate into a global collaboration.`,
+                defaultMessage: `Established in 2004 and licensed by the Vietnamese Government, ELS School (ELS) is a Cambridge International School with the National Education system offering K-12 education programmes. Our mission is to educate a world-class generation of Vietnamese students who possess scientific knowledge on par with students in developed countries. ELS School students will develop a deep understanding of traditional values, practical living skills and righteous points of view. They will hold responsibilities of what are expected in global citizens, with the courage and confidence needed to integrate into a global collaboration.`,
               })}
             </p>
 

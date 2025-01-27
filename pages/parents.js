@@ -29,7 +29,7 @@ export default function Parents({ classes, navigations }) {
         description={f({
           id: "Parent.ParentSummary",
           defaultMessage:
-            "A special thank you goes out to all the parents who placed absolute trust in us by sending their children to BSA over these past 11 years. We are so grateful and blessed to be associated with the amazing parents and students here at Blue Sky Academy. We are dedicated to providing your Child with quality products and services and we could not do this without your cooperation. Thank you for allowing us to be a part of your children’s childhood. ",
+            "A special thank you goes out to all the parents who placed absolute trust in us by sending their children to ELS over these past 11 years. We are so grateful and blessed to be associated with the amazing parents and students here at Blue Sky Academy. We are dedicated to providing your Child with quality products and services and we could not do this without your cooperation. Thank you for allowing us to be a part of your children’s childhood. ",
         })}
         images={PARENTS_IMAGES}
       />

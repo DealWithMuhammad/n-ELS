@@ -57,7 +57,7 @@ const DescriptionValues = () => {
                     {f({
                       id: "About.CoordinationSummary",
                       defaultMessage:
-                        "We inspire students to become confident and ethical leaders, strengthening their voices and capacity to contribute positively to their communities. Young people leave the BSA with the tools and confidence they need to be successful personally and academically in higher levels and beyond.",
+                        "We inspire students to become confident and ethical leaders, strengthening their voices and capacity to contribute positively to their communities. Young people leave the ELS with the tools and confidence they need to be successful personally and academically in higher levels and beyond.",
                     })}
                   </p>
                 </div>

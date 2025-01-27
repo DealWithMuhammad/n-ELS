@@ -36,7 +36,7 @@ const Finance = ({ id }) => {
                 <p className='mb-2 text-sm text-gray-900'>
                   General information about tuition fees, other fees in details
                   and supporting policies to help parents with financial plans
-                  for their children study at BSA.
+                  for their children study at ELS.
                 </p>
               </div>
               <a

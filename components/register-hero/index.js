@@ -22,8 +22,8 @@ const RegisterHero = () => {
           <div>
             <span className="inline-block px-4 py-2 font-medium text-purple-700 bg-purple-200 rounded-full shadow-md -rotate-1">
               {f({
-                id: "Parent.NowRegisterWithBSA",
-                defaultMessage: "Now register with BSA",
+                id: "Parent.NowRegisterWithELS",
+                defaultMessage: "Now register with ELS",
               })}
             </span>
           </div>
@@ -85,9 +85,9 @@ const RegisterHero = () => {
                   </p>
                   <p className="mt-2 text-sm text-purple-800">
                     {f({
-                      id: "Parent.RegisterBSASchoolVisitTour",
+                      id: "Parent.RegisterELSSchoolVisitTour",
                       defaultMessage:
-                        "Register BSA school visit tour from Mon to Fri",
+                        "Register ELS school visit tour from Mon to Fri",
                     })}
                   </p>
                 </div>

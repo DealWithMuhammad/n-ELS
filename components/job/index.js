@@ -74,7 +74,7 @@ const Job = ({ title, start, expire, requirement, benefit, introduction }) => {
           {f({
             id: "Recruitment.ApplySummary",
             defaultMessage:
-              "Interested candidates: kindly send your resume and a cover letter to jobs@bsa.edu.vn. Feel free to send along any questions about the job opportunity, us, or about Vietnam in general.",
+              "Interested candidates: kindly send your resume and a cover letter to jobs@ELS.edu.vn. Feel free to send along any questions about the job opportunity, us, or about Vietnam in general.",
           })}
         </div>
       </div>

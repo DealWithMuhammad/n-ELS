@@ -34,12 +34,12 @@ const Benefits = ({ id }) => {
     {
       title: "Thưởng",
       description:
-        "Chính sách thưởng dựa trên kết quả thực hiện công việc đóng góp vào sự phát triển của BSA",
+        "Chính sách thưởng dựa trên kết quả thực hiện công việc đóng góp vào sự phát triển của ELS",
     },
     {
       title: "Bữa trưa",
       description:
-        "BSA cung cấp bữa trưa dinh dưỡng và đảm bảo vệ sinh an toàn thực phẩm cho tất cả nhân viên",
+        "ELS cung cấp bữa trưa dinh dưỡng và đảm bảo vệ sinh an toàn thực phẩm cho tất cả nhân viên",
     },
     {
       title: "Bảo hiểm",

@@ -45,7 +45,7 @@ const AdmissionIntro = () => {
             {f({
               id: "Admission.Summary",
               defaultMessage:
-                "We would like to express our gratitude for your consideration of ELS School (BSA) for your child(ren)’s academic training and education. We hope that you can obtain all the information that you need on our website, which will also provide you with an overview of our Vision, Mission, Education Pathway and Programme, Team and Facilities. There is no better way to find out about us than to visit the school. Therefore, we warmly welcome you to take a tour of our school at any time in order to meet our Principal, Management, Teachers, and Staff, to see our facilities first hand, and to learn more about the school for your child(ren)’s future academic path. We look forward to welcoming you to the school and hope that your child(ren) will be part of the BSA community.",
+                "We would like to express our gratitude for your consideration of ELS School (ELS) for your child(ren)’s academic training and education. We hope that you can obtain all the information that you need on our website, which will also provide you with an overview of our Vision, Mission, Education Pathway and Programme, Team and Facilities. There is no better way to find out about us than to visit the school. Therefore, we warmly welcome you to take a tour of our school at any time in order to meet our Principal, Management, Teachers, and Staff, to see our facilities first hand, and to learn more about the school for your child(ren)’s future academic path. We look forward to welcoming you to the school and hope that your child(ren) will be part of the ELS community.",
             })}
           </p>
         </div>
@@ -82,9 +82,9 @@ const AdmissionIntro = () => {
                   </p>
                   <p className="mt-2 text-sm text-purple-800">
                     {f({
-                      id: "Parent.RegisterBSASchoolVisitTour",
+                      id: "Parent.RegisterELSSchoolVisitTour",
                       defaultMessage:
-                        "Register BSA school visit tour from Mon to Fri",
+                        "Register ELS school visit tour from Mon to Fri",
                     })}
                   </p>
                 </div>
@@ -263,8 +263,8 @@ const AdmissionIntro = () => {
                   </p>
                   <p className="mt-2 text-sm text-purple-800">
                     {f({
-                      id: "Admission.ViewBSAAcademicCalendar",
-                      defaultMessage: "View BSA academic calendar",
+                      id: "Admission.ViewELSAcademicCalendar",
+                      defaultMessage: "View ELS academic calendar",
                     })}
                   </p>
                 </div>

@@ -242,8 +242,8 @@ const AdmissionHero = () => {
                   <div className="mt-2">
                     <p className="block w-full mt-6 font-medium text-purple-900">
                       {f({
-                        id: "Admission.ViewBSAAcademicCalendar",
-                        defaultMessage: "View BSA academic calendar",
+                        id: "Admission.ViewELSAcademicCalendar",
+                        defaultMessage: "View ELS academic calendar",
                       })}
                     </p>
                   </div>

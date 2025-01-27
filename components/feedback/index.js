@@ -83,7 +83,7 @@ const Feedback = ({ id, testimonials }) => {
               {f({
                 id: "Home.OurStoriesSummary",
                 defaultMessage:
-                  "All of teachers and support staffs at BSA know and call each of us by name, they understand our families, our hobbies and listen to us all the time. Therefore, we are very pleased to say that we were a happy family. We love everything of Blue Sky!",
+                  "All of teachers and support staffs at ELS know and call each of us by name, they understand our families, our hobbies and listen to us all the time. Therefore, we are very pleased to say that we were a happy family. We love everything of Blue Sky!",
               })}
             </p>
           </div>
