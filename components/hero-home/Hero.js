@@ -17,8 +17,8 @@ function Hero() {
           </span>
         </h1>
         <div className="text-lg md:text-xl lg:text-2xl max-w-3xl mx-auto mb-8 font-light text-gray-200 leading-relaxed">
-          Discover Your Potential at Egypt's Premier International School -
-          Where Excellence Meets Compassion
+          Discover Your Potential at Egypt Premier International School - Where
+          Excellence Meets Compassion
         </div>
 
         <Link href="/about" passHref>
