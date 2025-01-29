@@ -40,6 +40,16 @@ a {
   width: 100%;
 }
 .triangle {
+  border-left: 22px solid #fff;
+  border-top: 22px solid transparent;
+  height: 0;
+  width: 0;
+  position: absolute;
+  right: -22px;
+  bottom: 25px;
+  z-index: 1;
+}
+.triangle2 {
   border-left: 22px solid #003056;
   border-top: 22px solid transparent;
   height: 0;

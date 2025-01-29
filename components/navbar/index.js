@@ -214,7 +214,31 @@ const Navbar = ({
           </div>
 
           <div>
-            <ul className="flex space-x-12">
+            <a
+              href="https://elsystem.org/lms/"
+              target="_blank"
+              type="button"
+              className="mt-6 text-lg font-medium bg-white sm:mt-0 text-primary-100 sm:ml-6 relative leading-normal inline-flex items-center justify-center px-8 py-3 duration-300 ease-in-out rounded_button group cursor-pointer border-solid border-2 border-primary-100"
+            >
+              Login
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-6 h-6 ml-3 transition-transform duration-300 group-hover:translate-x-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+              <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-[12px]"></div>
+            </a>
+
+            {/* <ul className="flex space-x-12">
               <div className="flex flex-row-reverse">
                 <img
                   className="px-2 h-[34px] cursor-pointer"
@@ -237,7 +261,7 @@ const Navbar = ({
                   }
                 />
               </div>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </header>

@@ -17,7 +17,7 @@ const CallAction = () => {
         className={`fixed right-0 mr-6 sm:mr-8 mb-8 sm:mb-16 z-10`}
         style={{ bottom: "120px" }}
       >
-        <div className="bg-primary-100 text-white rounded-full sm:rounded-3xl shadow-md px-2 py-2 sm:px-6 sm:py-3  cursor-pointer mb-1">
+        <div className="bg-white text-primary-100 rounded-full sm:rounded-3xl shadow-md px-2 py-2 sm:px-6 sm:py-3  cursor-pointer mb-1">
           <div className="flex flex-col justify-center">
             <a href="tel:0818700990">
               {isMobile ? (
@@ -96,7 +96,7 @@ const CallAction = () => {
               </div>
             )}
           </div>
-          <div className="triangle hidden sm:block"></div>
+          <div className="triangle2 hidden sm:block"></div>
         </div>
       </div>
 
