@@ -1,5 +1,4 @@
 import Link from "next/link";
-// import { motion } from "framer-motion";
 
 function Hero() {
   return (
@@ -12,7 +11,7 @@ function Hero() {
     >
       <div className="container mx-auto px-4 relative z-10">
         <h1 className="mb-6 font-extrabold text-4xl md:text-6xl lg:text-7xl">
-          Empower Your{" "}
+          Empower Your
           <span className="bg-gradient-to-r from-blue-500 to-blue-800 bg-clip-text text-transparent">
             Future With ELS
           </span>
@@ -21,11 +20,7 @@ function Hero() {
           Discover Your Potential at Egypt's Premier International School -
           Where Excellence Meets Compassion
         </div>
-        {/* <motion.div
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="inline-block"
-          > */}
+
         <Link href="/about" passHref>
           <a className="text-lg font-medium text-white bg-primary-100 relative leading-normal inline-flex items-center justify-center px-8 py-3 duration-300 ease-in-out rounded_button outline-none hover:bg-primary-100 group h-[55px]">
             <span>Start Your Journey</span>
@@ -71,8 +66,6 @@ function Hero() {
             />
           </svg>
         </button>
-        {/* </motion.div>
-        </motion.div> */}
       </div>
 
       {/* Animated background elements */}
