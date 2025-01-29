@@ -31,16 +31,16 @@ export function NavLink({ href, title, color, ...props }) {
       <a {...props}>
         <div className="relative group">
           <span
-            className={`relative z-10 text-lg  ${
+            className={`relative z-10 text-[20px]  ${
               color ? color : "text-primary-100 group-hover:text-primary-80"
             } duration-300 ease-in-out whitespace-nowrap ${
-              isActive ? "font-bold" : "font-medium"
+              isActive ? "text-cyan-800" : "font-medium"
             }`}
           >
             {title}
           </span>
           <span
-            className={`absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-primary-100 rounded-lg -left-1 -right-1 group-hover:scale-x-100 ${
+            className={`absolute -bottom-3 h-[2px] duration-300 ease-in-out origin-bottom transform scale-x-0 bg-cyan-800 rounded-lg -left-1 -right-1 group-hover:scale-x-100 ${
               isActive && "scale-x-1 md:scale-x-100"
             }`}
           ></span>

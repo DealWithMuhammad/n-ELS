@@ -3,7 +3,7 @@ import Link from "next/link";
 function Hero() {
   return (
     <div
-      className="min-h-[90vh] flex items-center justify-center text-center bg-cover bg-center w-full text-white relative overflow-hidden"
+      className="min-h-[77vh] flex items-center justify-center text-center bg-cover bg-center w-full text-white relative overflow-hidden"
       style={{
         backgroundImage:
           "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('/images/LearnHome.jpg')",
@@ -11,8 +11,8 @@ function Hero() {
     >
       <div className="container mx-auto px-4 relative z-10">
         <h1 className="mb-6 font-extrabold text-4xl md:text-6xl lg:text-7xl">
-          Empower Your
-          <span className="bg-gradient-to-r from-blue-500 to-blue-800 bg-clip-text text-transparent">
+          Empower Your{" "}
+          <span className="bg-gradient-to-r from-cyan-500 to-cyan-800 bg-clip-text text-transparent">
             Future With ELS
           </span>
         </h1>

@@ -185,16 +185,16 @@ const Navbar = ({
 
   return (
     <div className={className}>
-      <header className="h-[80px] pt-2 hidden sm:block shadow_navigation">
-        <div className="max-w-screen-xl mx-auto flex justify-between">
-          <div className="flex">
+      <header className="h-[150px] pt-2 hidden sm:block shadow_navigation">
+        <div className="max-w-screen-xl mx-auto flex justify-between items-center">
+          <div className="flex items-center">
             <Link href="/">
               <a href="#">
-                <img className="h-[74px]" src="/images/logo.png" alt="" />
+                <img className="h-[140px]" src="/images/logo.png" alt="" />
               </a>
             </Link>
 
-            <nav className="bg-transparent ml-9 sm:pt-5">
+            <nav className="bg-transparent ml-9">
               <div className={`items-center justify-between hidden md:flex`}>
                 {renderNavigations?.map((item, idx) => (
                   <div
@@ -214,10 +214,10 @@ const Navbar = ({
           </div>
 
           <div>
-            <ul className="flex mt-2 space-x-12 pt-2">
-              <div className="flex flex-row-reverse mt-1">
+            <ul className="flex space-x-12">
+              <div className="flex flex-row-reverse">
                 <img
-                  className="px-2 h-[24px] cursor-pointer"
+                  className="px-2 h-[34px] cursor-pointer"
                   alt="VietNam"
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/1280px-Flag_of_Pakistan.svg.png"
                   onClick={() =>
@@ -227,7 +227,7 @@ const Navbar = ({
                   }
                 />
                 <img
-                  className="h-[24px] cursor-pointer"
+                  className="h-[34px] cursor-pointer"
                   src="/svg/US.svg"
                   alt="English"
                   onClick={() =>
