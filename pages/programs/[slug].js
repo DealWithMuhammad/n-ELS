@@ -16,51 +16,42 @@ import CarouselImages from "../../components/carousel-images";
 
 const Class = ({ division, navigations }) => {
   const router = useRouter();
-  if (!router.isFallback && !division) {
-    return <NotFoundPage />;
-  }
+  // if (!router.isFallback && !division) {
+  //   return <NotFoundPage />;
+  // }
   return (
     <Layout navigations={navigations}>
-      {router.isFallback ? (
+      {/* {router.isFallback ? (
         <h1>Loading ...</h1>
       ) : (
-        <>
-          <ClassHero
-            name={division?.name}
-            slug={division?.slug}
-            summary={division?.summary}
-            coverImage={division?.coverImage?.url}
-            description={division?.description}
-          />
-          <AnimationRevealPage>
-            <Reason
-              id="viewmore"
-              reasons={division?.reasonsCollection?.items}
-              slug={division?.slug}
-            />
-            <Stats
-              stats={division?.statsCollection?.items}
-              slug={division?.slug}
-            />
-            <DivisionTeam
-              teachers={division?.teachersCollection?.items?.filter((n) =>
-                n
-                  ? console.error(
-                      "null in teachersCollection in ",
-                      division.name,
-                      {
-                        items: division.teachersCollection.items,
-                      }
-                    )
-                  : n
-              )}
-              slug={division?.slug}
-            />
-            <CarouselImages classes={division?.classesCollection?.items} />
-            <CTA />
-          </AnimationRevealPage>
-        </>
-      )}
+        <> */}
+      <ClassHero
+        name={division?.name}
+        slug={division?.slug}
+        summary={division?.summary}
+        coverImage={division?.coverImage?.url}
+        description={division?.description}
+      />
+      <AnimationRevealPage>
+        <Reason
+          id="viewmore"
+          reasons={division?.reasonsCollection?.items}
+          slug={division?.slug}
+        />
+        <Stats stats={division?.statsCollection?.items} slug={division?.slug} />
+        <DivisionTeam
+          teachers={division?.teachersCollection?.items?.filter((n) =>
+            n
+              ? console.error("null in teachersCollection in ", division.name, {
+                  items: division.teachersCollection.items,
+                })
+              : n
+          )}
+          slug={division?.slug}
+        />
+        <CarouselImages classes={division?.classesCollection?.items} />
+        <CTA />
+      </AnimationRevealPage>
     </Layout>
   );
 };

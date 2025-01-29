@@ -8,36 +8,32 @@ import {
 } from "../../lib/api";
 import AnimationRevealPage from "../../helpers/AnimationRevealPage";
 import CTA from "../../components/cta";
-import NotFoundPage from "../404";
+// import NotFoundPage from "../404";
 import PostBody from "../../components/post/post-body";
 import BreadCrumb from "../../components/breadcrumb";
 import RecentPosts from "../../components/recent-posts";
 
 const Page = ({ page, posts, navigations }) => {
   const router = useRouter();
-  if (!router.isFallback && !page) {
-    return <NotFoundPage />;
-  }
+
   return (
     <Layout navigations={navigations}>
-      {router.isFallback ? (
+      {/* {router.isFallback ? (
         <h1>Loading ...</h1>
       ) : (
-        <>
-          <div className="max-w-screen-xl mx-auto mt-12">
-            <BreadCrumb title={page?.title} slug={page?.slug} />
-          </div>
-          <div className="max-w-screen-xl flex flex-col lg:flex-row mx-auto">
-            <PostBody
-              content={page.content}
-              className="max-w-screen-md pt-6 mx-3 md:mx-auto"
-            />
-            <RecentPosts recentPosts={posts} />
-          </div>
+        <> */}
+      <div className="max-w-screen-xl mx-auto mt-12">
+        <BreadCrumb title={page?.title} slug={page?.slug} />
+      </div>
+      <div className="max-w-screen-xl flex flex-col lg:flex-row mx-auto">
+        <PostBody
+          content={page.content}
+          className="max-w-screen-md pt-6 mx-3 md:mx-auto"
+        />
+        <RecentPosts recentPosts={posts} />
+      </div>
 
-          <CTA />
-        </>
-      )}
+      <CTA />
     </Layout>
   );
 };
