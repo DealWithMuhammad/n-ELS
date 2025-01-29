@@ -12,25 +12,23 @@ import CTA from "../../components/cta";
 import PostBody from "../../components/post/post-body";
 import BreadCrumb from "../../components/breadcrumb";
 import RecentPosts from "../../components/recent-posts";
-
 const Page = ({ page, posts, navigations }) => {
   const router = useRouter();
 
+  // Ensure content is available for rendering
+  const pageContent = page?.content || ""; // Fallback to an empty string if content is missing
+
   return (
     <Layout navigations={navigations}>
-      {/* {router.isFallback ? (
-        <h1>Loading ...</h1>
-      ) : (
-        <> */}
       <div className="max-w-screen-xl mx-auto mt-12">
         <BreadCrumb title={page?.title} slug={page?.slug} />
       </div>
       <div className="max-w-screen-xl flex flex-col lg:flex-row mx-auto">
-        <PostBody
-          content={page.content}
+        {/* <PostBody
+          content={pageContent}
           className="max-w-screen-md pt-6 mx-3 md:mx-auto"
-        />
-        <RecentPosts recentPosts={posts} />
+        /> */}
+        {/* <RecentPosts recentPosts={posts} /> */}
       </div>
 
       <CTA />
@@ -39,15 +37,18 @@ const Page = ({ page, posts, navigations }) => {
 };
 
 export default Page;
+
 export async function getStaticProps({ params, locale }) {
   const data = await getPage(params.slug, locale);
+
+  // Ensure data has the structure you expect
   const posts = (await getPostsForHome(locale)) ?? [];
   const navigations = (await getNavigation(locale)) ?? [];
 
+  // Make sure the `page` object is valid (fallback to an empty object if not)
   return {
     props: {
-      page: data ?? null,
-      message: data.message || null,
+      page: data ?? {}, // If no data, pass an empty object instead of null
       posts,
       navigations,
     },
@@ -60,6 +61,6 @@ export async function getStaticPaths() {
 
   return {
     paths: pages?.map(({ slug }) => `/pages/${slug}`) ?? [],
-    fallback: true,
+    fallback: true, // Keep fallback true, which means pages will be generated on demand
   };
 }
