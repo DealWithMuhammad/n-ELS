@@ -19,7 +19,7 @@ export function NavLink({ href, title, color, ...props }) {
           {title}
         </span>
         <span
-          className={`absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100 ${
+          className={`absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-primary-100 rounded-lg -left-1 -right-1 group-hover:scale-x-100 ${
             isActive && "scale-x-100"
           }`}
         ></span>
@@ -40,7 +40,7 @@ export function NavLink({ href, title, color, ...props }) {
             {title}
           </span>
           <span
-            className={`absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100 ${
+            className={`absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-primary-100 rounded-lg -left-1 -right-1 group-hover:scale-x-100 ${
               isActive && "scale-x-1 md:scale-x-100"
             }`}
           ></span>
