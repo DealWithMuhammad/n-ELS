@@ -218,6 +218,7 @@ const Navbar = ({
               href="https://elsystem.org/lms/"
               target="_blank"
               type="button"
+              rel="elsystem"
               className="mt-6 text-lg font-medium bg-white sm:mt-0 text-primary-100 sm:ml-6 relative leading-normal inline-flex items-center justify-center px-8 py-3 duration-300 ease-in-out rounded_button group cursor-pointer border-solid border-2 border-primary-100"
             >
               Login
