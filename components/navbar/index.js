@@ -296,7 +296,7 @@ const Navbar = ({
                         <Link href="/">
                           <a>
                             <img
-                              src="/svg/logo.svg"
+                              src="/images/logo.png"
                               alt="Bright"
                               className="h-[48px]"
                             />
@@ -344,11 +344,11 @@ const Navbar = ({
                 </>
               )}
             </div>
-            <div className="block w-48 sm:hidden sm:w-52 flex justify-center">
+            <div className=" w-52 sm:hidden sm:w-52 flex justify-center">
               <Link href="/">
                 <a href="#">
                   <img
-                    src="/svg/logo.svg"
+                    src="/images/logo.png"
                     alt="Bright"
                     className="h-[48px] mt-3 ml-6"
                   />

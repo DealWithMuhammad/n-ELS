@@ -16,6 +16,7 @@ import CTA from "../components/cta";
 import Feedback from "../components/feedback";
 import { useIntl } from "react-intl";
 import Banner from "../components/banner";
+import Hero from "../components/hero-home/Hero";
 
 export default function Home({
   allPosts,
@@ -35,7 +36,10 @@ export default function Home({
   ];
   return (
     <Layout navigations={navigations}>
-      <Banner coverImages={coverImages} />
+      {/* <Banner coverImages={coverImages} /> */}
+      <div className="w-full mb-10  bg-grid-black/[0.1] relative ">
+        <Hero />
+      </div>
       <HomeHero />
       <Programs id="program" />
       <GalleryHero
