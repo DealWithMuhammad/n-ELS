@@ -215,7 +215,7 @@ const Navbar = ({
 
           <div>
             <a
-              href="https://elsystem.org/lms/"
+              href="https://elsystem.org/lms/index.php"
               target="_blank"
               type="button"
               rel="noreferrer"
