@@ -25,10 +25,7 @@ export default function About({ navigations, visions, cofounders }) {
 }
 export async function getStaticProps({ locale }) {
   const navigations = (await getNavigation(locale)) ?? [];
-  const {
-    visions = [],
-    cofounders = [],
-  } = await getParagraphs(locale);
+  const { visions = [], cofounders = [] } = await getParagraphs(locale);
   return {
     props: { navigations, visions, cofounders },
     revalidate: 1,

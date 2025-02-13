@@ -48,7 +48,8 @@ const ContactInformation = () => {
                 <p className="mt-1.5 text-base text-purple-800 leading-relaxed">
                   {f({
                     id: "Home.AddressDetail",
-                    defaultMessage: "Le Loi, Vinh City, Nghe An, Vietnam",
+                    defaultMessage:
+                      "11A, Jalan Nakhoda Kanan, Kampung Nakhoda, 68100 Batu Caves, Selangor, Malaysia",
                   })}
                 </p>
               </div>
@@ -85,7 +86,7 @@ const ContactInformation = () => {
                   })}
                 </h5>
                 <p className="mt-1.5 text-base text-purple-800 leading-relaxed">
-                  bluesky@edu.vn
+                  contact@elsystem.org
                 </p>
               </div>
             </div>
@@ -120,7 +121,7 @@ const ContactInformation = () => {
                   })}
                 </h5>
                 <p className="mt-1.5 text-base text-purple-800 leading-relaxed">
-                  0818 700 990
+                  +60 19757 6113
                 </p>
               </div>
             </div>

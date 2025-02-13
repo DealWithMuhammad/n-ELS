@@ -219,7 +219,7 @@ const Navbar = ({
               target="_blank"
               type="button"
               rel="noreferrer"
-              className="mt-6 text-lg font-medium bg-white sm:mt-0 text-primary-100 sm:ml-6 relative leading-normal inline-flex items-center justify-center px-8 py-3 duration-300 ease-in-out rounded_button group cursor-pointer border-solid border-2 border-primary-100"
+              className="mt-6 text-lg font-medium bg-white hover:bg-primary-100 hover:text-white sm:mt-0 text-primary-100 sm:ml-6 relative leading-normal inline-flex items-center justify-center px-8 py-3 duration-300 ease-in-out rounded_button group cursor-pointer border-solid border-2 border-primary-100"
             >
               Login
               <svg
@@ -285,7 +285,7 @@ const Navbar = ({
           </div> */}
           {/* Mobile menu */}
           <div className="flex items-center justify-between w-full overflow-y-auto shadow pb-3 sm:hidden bg-white">
-            <div className="block ml-6 sm:hidden">
+            <div className="block ml-6 mt-5 sm:hidden">
               {/* Button */}
               <button
                 className="relative z-50 w-6 h-5 transition duration-500 ease-in-out transform rotate-0 cursor-pointer group focus:outline-none"
@@ -375,32 +375,37 @@ const Navbar = ({
                   <img
                     src="/images/logo.png"
                     alt="Bright"
-                    className="h-[48px] mt-3 ml-6"
+                    className="h-[80px] mt-3 mr-8"
                   />
                 </a>
               </Link>
             </div>
-            <div className="flex flex-row-reverse mt-4 mr-4 sm:hidden">
-              <img
-                className="px-2 h-[24px] cursor-pointer"
-                alt="VietNam"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/1280px-Flag_of_Pakistan.svg.png"
-                onClick={() =>
-                  router.push({ pathname, query }, asPath, {
-                    locale: "vi",
-                  })
-                }
-              />
-              <img
-                className="h-[24px] cursor-pointer"
-                src="/svg/US.svg"
-                alt="English"
-                onClick={() =>
-                  router.push({ pathname, query }, asPath, {
-                    locale: "en",
-                  })
-                }
-              />
+            <div></div>
+            <div className="absolute right-1  mt-4 mr-4 sm:hidden">
+              <a
+                href="https://elsystem.org/lms/index.php"
+                target="_blank"
+                type="button"
+                rel="noreferrer"
+                className=" text-base font-medium bg-white hover:bg-primary-100 hover:text-white sm:mt-0 text-primary-100 sm:ml-6 relative leading-normal inline-flex items-center justify-center px-4 py-3 duration-300 ease-in-out rounded_button group cursor-pointer border-solid border-2 border-primary-100"
+              >
+                Login
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-6 h-6 ml-3 transition-transform duration-300 group-hover:translate-x-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+                <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-[12px]"></div>
+              </a>
             </div>
           </div>
         </nav>

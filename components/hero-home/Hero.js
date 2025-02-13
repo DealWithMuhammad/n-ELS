@@ -6,7 +6,7 @@ function Hero() {
       className="min-h-[77vh] flex items-center justify-center text-center bg-cover bg-center w-full text-white relative overflow-hidden"
       style={{
         backgroundImage:
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('/images/LearnHome.jpg')",
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/LearnHome.jpg')",
       }}
     >
       <div className="container mx-auto px-4 relative z-10">
@@ -16,9 +16,8 @@ function Hero() {
             Future With ELS
           </span>
         </h1>
-        <div className="text-lg md:text-xl lg:text-2xl max-w-3xl mx-auto mb-8 font-light text-gray-200 leading-relaxed">
-          Discover Your Potential at Egypt Premier International School - Where
-          Excellence Meets Compassion
+        <div className="text-lg md:text-xl lg:text-2xl  max-w-3xl mx-auto mb-10 font-extrabold text-gray-200 leading-relaxed">
+          Learn, Grow, Succeed—Together.
         </div>
 
         <Link href="/about" passHref>

@@ -25,12 +25,15 @@ const Programs = ({ id }) => {
                 })}
               </h2>
               <p className="max-w-2xl mx-auto mt-4 text-xl leading-relaxed text-purple-800 sm:mt-5 lg:text-left">
-                {f({
-                  id: "Home.OverviewCurriculum",
-                  defaultMessage: `Overview of the curriculum at ELS School School system is
-                designed exclusively for three levels: kindergarten, primary
-                school and secondary.`,
-                })}
+                At Empower Learning System, we offer transformative education
+                for refugees in Malaysia, including
+                <span className="font-extrabold italic">
+                  : Cambridge Primary and Secondary Education (IGCSE), GED
+                  Preparation, Higher Education, and Skills Development.
+                </span>{" "}
+                Our programs are tailored to diverse needs, empowering
+                individuals to rebuild their lives and create a brighter future.
+                Join us in making education accessible and impactful for all.
               </p>
             </div>
           </motion.div>
@@ -61,7 +64,7 @@ const Programs = ({ id }) => {
                     <p className="max-w-2xl mt-3 text-lg leading-loose text-purple-800">
                       {f({
                         id: "Home.PrimaryDescription",
-                        defaultMessage: `The program prepares students for their higher education, build upon a solid base of academics, understanding and a sense of beauty and technology`,
+                        defaultMessage: `Our Primary Education program builds strong academic foundations, fostering curiosity and critical thinking for lifelong learning.`,
                       })}
                     </p>
                     <div className="relative mt-8 aspect-w-3 aspect-h-2">

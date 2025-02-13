@@ -66,7 +66,7 @@ const HomeHero = () => {
             <p className="max-w-2xl mt-3 text-xl leading-relaxed text-center text-purple-800 lg:text-left">
               {f({
                 id: "Home.SloganHero",
-                defaultMessage: `Established in 2004 and licensed by the Vietnamese Government, ELS School (ELS) is a Cambridge International School with the National Education system offering K-12 education programmes. Our mission is to educate a world-class generation of Vietnamese students who possess scientific knowledge on par with students in developed countries. ELS School students will develop a deep understanding of traditional values, practical living skills and righteous points of view. They will hold responsibilities of what are expected in global citizens, with the courage and confidence needed to integrate into a global collaboration.`,
+                defaultMessage: `Empower Learning System is a compassionate educational initiative dedicated to meeting the critical needs of refugees in Malaysia. We provide inclusive opportunities for children, youth, and adults with limited financial capacity, offering programs such as K-12 Education, Cambridge Primary and Secondary Education, GED Preparation, Higher Education, and Skills Development. Our dedicated team creates a supportive learning environment, empowering individuals to rebuild their lives and contribute positively to their communities. Collaborate with us to support our mission of making education accessible for all and restoring hope and dignity to those we serve.`,
               })}
             </p>
 

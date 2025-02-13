@@ -77,11 +77,7 @@ export default function Footer() {
             <div className="flex-grow-0 flex-shrink-0 w-60">
               <Link href="/">
                 <a>
-                  <img
-                    src="/images/logo.png"
-                    alt="ELS"
-                    className="h-20"
-                  />
+                  <img src="/images/logo.png" alt="ELS" className="h-20" />
                 </a>
               </Link>
             </div>
@@ -260,7 +256,8 @@ export default function Footer() {
                 >
                   {f({
                     id: "Home.AddressDetail",
-                    defaultMessage: "Le Loi, Vinh City, Nghe An, Vietnam",
+                    defaultMessage:
+                      "11A, Jalan Nakhoda Kanan, Kampung Nakhoda, 68100 Batu Caves, Selangor, Malaysia",
                   })}
                 </p>
               </div>
@@ -268,7 +265,7 @@ export default function Footer() {
 
             <li className="flex flex-shrink-0">
               <div>
-                <a href="mailto:bluesky@edu.vn?subject = Feedback&body = Message">
+                <a href="mailto:contact@elsystem.org?subject = Feedback&body = Message">
                   <span
                     className="
                 flex
@@ -314,7 +311,7 @@ export default function Footer() {
                 text-opacity-90
               "
                 >
-                  bluesky@edu.vn
+                  contact@elsystem.org
                 </p>
               </div>
             </li>
@@ -366,7 +363,7 @@ export default function Footer() {
                 text-opacity-90
               "
                 >
-                  0818 700 990
+                  +60 19757 6113
                 </p>
               </div>
             </li>
