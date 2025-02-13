@@ -28,12 +28,12 @@ const AboutHero = () => {
             })}
           </h2>
           <p className="max-w-4xl mx-auto mt-4 text-xl leading-relaxed text-center text-purple-800 sm:mt-5">
-            "Education is a beacon of hope and a tool for transformation. At
+            Education is a beacon of hope and a tool for transformation. At
             Empower Learning System, we provide inclusive, accessible education
             to refugees in Malaysia, empowering them to rebuild their lives and
-            contribute to their communities. Together, let’s restore hope,
+            contribute to their communities. Together, lets restore hope,
             dignity, and opportunity—because every individual deserves the
-            chance to thrive."
+            chance to thrive.
             {/* <br />
             Empower Learning System is a compassionate and innovative
             educational initiative dedicated to addressing the critical
