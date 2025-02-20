@@ -18,6 +18,9 @@ import { useIntl } from "react-intl";
 import Banner from "../components/banner";
 import Hero from "../components/hero-home/Hero";
 
+import Impact from "../components/impact-highlights/Impact";
+import WhyUs from "../components/whyus-section/why-us";
+
 export default function Home({
   allPosts,
   testimonials,
@@ -42,7 +45,9 @@ export default function Home({
       </div>
       <HomeHero />
       <Programs id="program" />
-      <GalleryHero
+      <WhyUs />
+      <Impact />
+      {/* <GalleryHero
         id="gallery"
         className="md:-mt-36"
         hasButton={true}
@@ -57,9 +62,9 @@ export default function Home({
             "Providing the best possible start to your children's education. Our goal is to ensure your little one's success in life. So We provide an environment that enables students to thrive.",
         })}
         images={GALLERY_IMAGES}
-      />
-      <Events posts={allPosts} id="news" />
-      <Feedback id="parents" testimonials={testimonials} />
+      /> */}
+      {/* <Events posts={allPosts} id="news" /> */}
+      {/* <Feedback id="parents" testimonials={testimonials} /> */}
       <Faq faq={faq} id="faq" />
       <CTA />
     </Layout>

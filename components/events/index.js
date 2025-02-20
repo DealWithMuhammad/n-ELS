@@ -81,7 +81,7 @@ const Events = ({ id, posts }) => {
           <h2 className="text-primary-100 lg:text-center text-5xl font-bold">
             <span className="relative inline-block">
               <img
-                src="/svg/star.svg"
+                src="https://www.bsa.edu.vn/svg/star.svg"
                 alt="Sunny"
                 className="absolute z-0 -translate-x-full -top-20 hidden sm:block"
               />
