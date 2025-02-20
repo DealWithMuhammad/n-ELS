@@ -1,0 +1,17 @@
+{
+  "..\\components\\apply-form\\video-record.js -> ./video-apply": {
+    "id": 3672,
+    "files": [
+      "static/chunks/d6e1aeb5.78d87aab8f2df5a5.js",
+      "static/chunks/5880ce42.9d12828356ab5fd6.js",
+      "static/css/ad08ed1fc83c893e.css",
+      "static/chunks/32.2b3b0eb19a269928.js"
+    ]
+  },
+  "..\\components\\post\\post-body.js -> ./video-embed": {
+    "id": 8328,
+    "files": [
+      "static/chunks/328.a922e38f38cd48c8.js"
+    ]
+  }
+}
