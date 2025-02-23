@@ -47,7 +47,9 @@ export default function Home({
       <Programs id="program" />
       <WhyUs />
       <Impact />
-      {/* <GalleryHero
+      <Feedback id="parents" testimonials={testimonials} />
+      <div className="mt-56"></div>
+      <GalleryHero
         id="gallery"
         className="md:-mt-36"
         hasButton={true}
@@ -62,9 +64,8 @@ export default function Home({
             "Providing the best possible start to your children's education. Our goal is to ensure your little one's success in life. So We provide an environment that enables students to thrive.",
         })}
         images={GALLERY_IMAGES}
-      /> */}
+      />
       {/* <Events posts={allPosts} id="news" /> */}
-      <Feedback id="parents" testimonials={testimonials} />
       <Faq faq={faq} id="faq" />
       <CTA />
     </Layout>
