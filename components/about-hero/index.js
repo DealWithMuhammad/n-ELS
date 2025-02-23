@@ -71,7 +71,7 @@ const AboutHero = () => {
             </p>
           </p>
 
-          <div className="flex justify-center mt-8">
+          {/* <div className="flex justify-center mt-8">
             <Link href="/about#message">
               <a className="text-lg font-semibold text-purple-900 bg-yellow-500 eading-normal inline-flex items-center justify-center px-8 py-3 duration-300 ease-in-out rounded-full outline-none hover:bg-yellow-600 group">
                 {f({
@@ -96,7 +96,7 @@ const AboutHero = () => {
                 </svg>
               </a>
             </Link>
-          </div>
+          </div> */}
         </div>
 
         <div className="relative z-1 mt-14 sm:mt-16">
