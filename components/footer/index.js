@@ -84,7 +84,7 @@ export default function Footer() {
           </div>
 
           <div className="mt-6">
-            <img src="/images/cie-logo.png" className="h-24" alt="" />
+            <img src="/images/cie-logo.png" className="h-14" alt="" />
           </div>
 
           <div className="w-full mt-5 lg:mt-6">
