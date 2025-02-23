@@ -77,7 +77,7 @@ export default function About({ navigations, visions, cofounders }) {
 
       {/* <DescriptionValues /> */}
       <Letter id="message" />
-      <Founders id="founder" cofounders={cofounders} />
+      {/* <Founders id="founder" cofounders={cofounders} /> */}
       <CTA />
     </Layout>
   );
