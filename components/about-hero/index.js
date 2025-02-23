@@ -15,25 +15,25 @@ const AboutHero = () => {
         <div className="relative mt-16">
           <div className="flex justify-center">
             <span className="inline-block px-4 py-2 font-medium text-purple-700 bg-purple-200 rounded-full shadow-md -rotate-1">
-              {f({
-                id: "About.WhereGreatKidsGrow",
-                defaultMessage: "Where great kids grow",
-              })}
+              Get to know us
             </span>
           </div>
           <h2 className="max-w-4xl mx-auto mt-4 text-center text-purple-900 font-extrabold text-5xl sm:text-6xl xl:text-7xl leading-snug sm:leading-tight xl:leading-tighter">
-            {f({
-              id: "About.MessageFromOurPrincipal",
-              defaultMessage: "Message from our Director",
-            })}
+            Who We Are
           </h2>
           <p className="max-w-4xl mx-auto mt-4 text-xl leading-relaxed text-center text-purple-800 sm:mt-5">
+            We are educators, mentors, and advocates dedicated to breaking
+            barriers for refugee and marginalized communities. Driven by the
+            belief that every individual deserves equitable access to education,
+            we foster environments where students not only learn but
+            flourish—unlocking confidence, resilience, and lifelong opportunity.
+            {/*           
             Education is a beacon of hope and a tool for transformation. At
             Empower Learning System, we provide inclusive, accessible education
             to refugees in Malaysia, empowering them to rebuild their lives and
             contribute to their communities. Together, lets restore hope,
             dignity, and opportunity—because every individual deserves the
-            chance to thrive.
+            chance to thrive. */}
             {/* <br />
             Empower Learning System is a compassionate and innovative
             educational initiative dedicated to addressing the critical
@@ -67,7 +67,7 @@ const AboutHero = () => {
             difference and ensure that education becomes a pathway to success
             for refugees, enabling them to thrive and contribute to society. */}
             <p className=" ml-5 italic text-gray-700 font-extrabold">
-              Faizan Ahmad, Director
+              {/* Faizan Ahmad, Director */}
             </p>
           </p>
 

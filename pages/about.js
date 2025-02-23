@@ -30,25 +30,24 @@ export default function About({ navigations, visions, cofounders }) {
             >
               <div className="mt-10 md:mt-0">
                 <span className="inline-block px-4 py-2 font-medium text-purple-700 bg-purple-200 rounded-full shadow-md -rotate-1">
-                  Get to know us
+                  Why We Stand Out
                 </span>
               </div>
               <h2 className="mt-4 text-purple-900 sm:mt-12 text-4xl leading-tight tracking-tight sm:text-5xl xl:text-6xl sm:leading-tighter font-bold">
-                Who We Are
+                Holistic Learning, Global Standards
               </h2>
               <p className="max-w-xl mt-4 text-lg leading-relaxed text-purple-800 md:mt-6">
-                We are educators, mentors, and advocates dedicated to breaking
-                barriers for refugee and marginalized communities. Driven by the
-                belief that every individual deserves equitable access to
-                education, we foster environments where students not only learn
-                but flourish—unlocking confidence, resilience, and lifelong
-                opportunity.
+                Our programs blend international curricula (including IGCSE)
+                with tailored support for displaced and underserved youth. From
+                nursery to higher education, we equip students with the
+                knowledge, skills, and agency to thrive in an interconnected
+                world.
               </p>
               <br />
-              <p className="max-w-xl mt-4 text-lg leading-relaxed text-purple-800 md:mt-1">
+              {/* <p className="max-w-xl mt-4 text-lg leading-relaxed text-purple-800 md:mt-1">
                 🎓 Uninterrupted Learning: Seamless online classrooms for
                 stability amid uncertainty.
-              </p>
+              </p> */}
               <br />
             </motion.div>
             <div className="w-full mx-auto sm:gap-8 lg:col-span-1 xl:col-span-4 sm:grid-cols-2 lg:gap-4 xl:gap-8 lg:order-2 sm:max-w-none sm:mx-0">
@@ -66,10 +65,10 @@ export default function About({ navigations, visions, cofounders }) {
           viewport={{ once: true }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          <p className="max-w-xl mx-auto lg:max-w-screen-xl text-lg leading-relaxed text-purple-800">
+          {/* <p className="max-w-xl mx-auto lg:max-w-screen-xl text-lg leading-relaxed text-purple-800">
             🤝 Community First: Culturally responsive programs that honor
             students’ unique journeys.
-          </p>
+          </p> */}
         </motion.div>
       </section>
       <Intro id="vision" visions={visions} />
