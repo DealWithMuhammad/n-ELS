@@ -152,7 +152,7 @@ const Faq = ({ id }) => {
           <a
             className="text-blue-700"
             target="_blank"
-            href="https://www.lms.elsystem.org//?q=/modules/Admissions/applicationFormSelect.php"
+            href="https://www.lms.elsystem.org//?q=/modules/Students/applicationForm.php"
           >
             click here
           </a>
