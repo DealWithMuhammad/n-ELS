@@ -145,8 +145,19 @@ const Faq = ({ id }) => {
     },
     {
       question: "13. How can I enroll my child in your programs?",
-      answer:
-        "Please visit our website and navigate to the 'Admissions' page for detailed enrollment instructions and forms.",
+      answer: (
+        <div>
+          Please visit our website and navigate to the 'Admissions' page for
+          detailed enrollment instructions and forms or{" "}
+          <a
+            className="text-blue-700"
+            target="_blank"
+            href="https://www.lms.elsystem.org//?q=/modules/Admissions/applicationFormSelect.php"
+          >
+            click here
+          </a>
+        </div>
+      ),
     },
     {
       question: "14. What documents are required for enrollment?",
