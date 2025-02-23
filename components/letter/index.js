@@ -64,9 +64,7 @@ const Letter = ({ id, message }) => {
               viewport={{ once: true }}
               transition={{ duration: 1, ease: "easeOut" }}
             >
-              <h2 className="font-4xl text-white">
-                Message from our Principal
-              </h2>
+              <h2 className="font-4xl text-white">Message from our Director</h2>
               <div
                 className="text-base leading-loose tracking-wide"
                 style={{
