@@ -14,8 +14,8 @@ const Values = ({ id }) => {
         viewport={{ once: true }}
         transition={{ duration: 1, ease: "easeOut" }}
       >
-        <div className="lg:grid lg:grid-cols-2 lg:gap-16 xl:gap-32">
-          <div className="flex items-center">
+        <div className=" lg:grid-cols-2 lg:gap-16 xl:gap-32">
+          <div className=" flex justify-center items-center">
             <h2 className="max-w-4xl text-purple-900 text-4xl leading-tight tracking-tight sm:text-5xl xl:text-6xl sm:leading-tighter font-bold">
               {f({
                 id: "About.CoreValues",
@@ -23,13 +23,9 @@ const Values = ({ id }) => {
               })}
             </h2>
           </div>
-          <div className="flex items-center mt-6 lg:mt-0">
-            <p className="text-xl leading-relaxed text-purple-800">
-              {f({
-                id: "About.CoreValuesSummary",
-                defaultMessage: `ELS School’s education system is based on UNESCO’s Four
-              Pillars of Learning`,
-              })}
+          <div className="flex justify-center items-center mt-6 lg:mt-8">
+            <p className="text-4xl leading-tight tracking-tight sm:text-4xl  sm:leading-tighter font-bold text-gray-700">
+              Learn, Grow, Thrive, Together
             </p>
           </div>
         </div>

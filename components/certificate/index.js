@@ -26,10 +26,7 @@ const Certificate = ({ id }) => {
               </span>
             </div>
             <h2 className="mt-4 text-purple-900 sm:mt-12 text-4xl leading-tight tracking-tight sm:text-5xl xl:text-6xl sm:leading-tighter font-bold">
-              {f({
-                id: "Program.InternationalAccredition",
-                defaultMessage: "International Accredition",
-              })}
+              testing
             </h2>
             <p className="max-w-xl mt-4 text-lg leading-relaxed text-purple-800 md:mt-6">
               {f({

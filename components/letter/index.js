@@ -64,14 +64,56 @@ const Letter = ({ id, message }) => {
               viewport={{ once: true }}
               transition={{ duration: 1, ease: "easeOut" }}
             >
-              <h2 className="font-4xl text-white">{message?.title}</h2>
+              <h2 className="font-4xl text-white">
+                Message from our Principal
+              </h2>
               <div
                 className="text-base leading-loose tracking-wide"
                 style={{
                   whiteSpace: "pre-line",
                 }}
               >
-                {message?.content}
+                From the day of operation in June 2010 to May 2021, Blue Sky
+                Academy has gone through an unforgettable 11-year journey. All
+                school levels, including Kindergarten, Primary and Secondary
+                school have seen numerous opportunities and challenges and
+                gained great achievements along the way.
+                <br />
+                Blue Sky Academy is a dream school for all staff, teachers and
+                parents. But most importantly, it is a limitless blue sky where
+                students can let their dreams fly. Here students can learn while
+                playing, discover their aptitudes and develop their talents.
+                <br />
+                Blue Sky Academy offers a unique, integrated curriculum,
+                perfectly combining the National Education Programme with the
+                International Education Programme provided by Cambridge
+                Assessment International Education (CAIE, formerly known as CIE
+                - Cambridge International Examinations, is one of the most
+                popular education programmes in the world and has been om offer
+                in more than 10,000 schools in 160 countries). Some key
+                guidelines for our education program are as follows:
+                <br />
+                Let students at all levels explore the world around them, learn
+                by asking questions, through researching for answers and by
+                writing down the results. • Ensure that students know their
+                mother tongue well to understand their motherland and the
+                Vietnamese people. Students learn and use English as their
+                second language from an early age to gain access to global
+                knowledge. • Increase practical learning of any subject through
+                the use and application of science and information technology. •
+                The Comprehensive Development Programme at BSA provides
+                alternative learning oppoturnities for students through a
+                variety of activities supporting the comprehensive development
+                of academic and extra-curricular fields as well as necessary
+                life skills. • Participate in all extracurricular, outdoor and
+                social activities in order to contribute to personality
+                development. Teachers and students never stop improving their
+                own communication skills; through the activities inside and
+                outside the classroom, they strengthen the bond among
+                themselves.
+                <br />
+                We are delighted to welcome all parents, teachers and staff as
+                an inseparable part in the development of the Blue Sky Academy.
               </div>
             </motion.div>
           </div>
