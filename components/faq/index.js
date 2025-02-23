@@ -34,17 +34,75 @@ const Question = ({ question, answer, response }) => {
       {showAnswer && (
         <div className="relative duration-700">
           <div className="mt-3 text-base leading-relaxed text-purple-800 sm:text-lg">
-            {response && (
-              <PostBody content={response} className="max-w-screen-lg" />
-            )}
+            {/* Directly render the answer text */}
+            <div className="prose max-w-none">{answer}</div>
           </div>
         </div>
       )}
     </li>
   );
 };
-const Faq = ({ id, faq }) => {
+
+const Faq = ({ id }) => {
   const { formatMessage: f } = useIntl();
+
+  const faqData = [
+    {
+      question: "What is Empower Learning System?",
+      answer:
+        "Empower Learning System is an educational institution dedicated to providing quality education to refugees and marginalized communities. We offer nursery, primary, secondary, and IGCSE preparation classes, along with higher education pathways.",
+    },
+    {
+      question: "What educational programs do you offer?",
+      answer: (
+        <div>
+          We offer a comprehensive range of programs including:
+          <ul className="list-disc pl-5 mt-2">
+            <li>Nursery and Primary Education</li>
+            <li>Secondary Education</li>
+            <li>IGCSE Preparation Classes</li>
+            <li>GED Preparation</li>
+            <li>Higher Education Pathways</li>
+          </ul>
+        </div>
+      ),
+    },
+    {
+      question: "Who can enroll in your programs?",
+      answer:
+        "Our programs are designed for refugees and individuals from marginalized communities with limited financial capacity. We welcome students of all backgrounds who are seeking quality education.",
+    },
+    {
+      question: "What subjects are covered in your primary education program?",
+      answer: (
+        <div>
+          Our primary education program focuses on foundational learning,
+          including:
+          <ul className="list-disc pl-5 mt-2">
+            <li>Literacy</li>
+            <li>Numeracy</li>
+            <li>Social skills</li>
+            <li>Basic sciences</li>
+          </ul>
+        </div>
+      ),
+    },
+    {
+      question: "What does your secondary education program include?",
+      answer: (
+        <div>
+          Our secondary program offers a comprehensive curriculum with:
+          <ul className="list-disc pl-5 mt-2">
+            <li>Core academic subjects</li>
+            <li>Critical thinking development</li>
+            <li>Problem-solving skills</li>
+            <li>Preparation for higher education</li>
+          </ul>
+        </div>
+      ),
+    },
+  ];
+
   return (
     <motion.section
       className="pt-20 pb-2 sm:pt-28"
@@ -62,13 +120,6 @@ const Faq = ({ id, faq }) => {
               defaultMessage: "Frequently asked questions",
             })}
           </h2>
-          {/* <p className="max-w-2xl mt-4 text-xl leading-relaxed text-primary-100 lg:text-left">
-            {f({
-              id: "Home.FAQSummary",
-              defaultMessage:
-                "ELS School answers the most frequently asked private school questions regarding our community and admissions process",
-            })}
-          </p> */}
         </div>
         <ul className="relative mt-12 space-y-6">
           <div>
@@ -83,11 +134,11 @@ const Faq = ({ id, faq }) => {
               alt=""
             />
           </div>
-          {faq?.map((item, idx) => (
+          {faqData.map((item, idx) => (
             <Question
               key={`question-${idx}`}
-              question={item?.question}
-              response={item?.response}
+              question={item.question}
+              answer={item.answer}
             />
           ))}
         </ul>
