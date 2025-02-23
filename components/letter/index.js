@@ -29,7 +29,7 @@ const Letter = ({ id, message }) => {
               className="absolute top-0 hidden h-auto transform translate-y-12 right-2 w-80"
               alt=""
             />
-            <div className="col-span-2 transform aspect-w-3 aspect-h-4 2xl:-translate-x-16">
+            <div className="col-span-2 transform aspect-w-3 aspect-h-3 2xl:-translate-x-16">
               <img
                 src="/images/principal.jpeg"
                 className="object-cover w-full h-full rounded-3xl 2xl:rounded-4xl"
@@ -71,47 +71,34 @@ const Letter = ({ id, message }) => {
                   whiteSpace: "pre-line",
                 }}
               >
-                From the day of operation in June 2010 to May 2021, Blue Sky
-                Academy has gone through an unforgettable 11-year journey. All
-                school levels, including Kindergarten, Primary and Secondary
-                school have seen numerous opportunities and challenges and
-                gained great achievements along the way.
+                At Empower Learning System, we believe that education is not
+                just a privilege but a lifeline—a force capable of transcending
+                borders, healing trauma, and rebuilding futures. As someone who
+                has witnessed firsthand the resilience of displaced communities,
+                I am deeply humbled to lead a team dedicated to turning
+                adversity into opportunity. Our school was born from a simple
+                yet profound truth: every child, every individual, deserves the
+                chance to learn, grow, and dream, regardless of their
+                circumstances. Whether through our nursery programs nurturing
+                young minds or our IGCSE classes unlocking doors to higher
+                education, we strive to create a sanctuary where hope is
+                rekindled and potential is unleashed.
                 <br />
-                Blue Sky Academy is a dream school for all staff, teachers and
-                parents. But most importantly, it is a limitless blue sky where
-                students can let their dreams fly. Here students can learn while
-                playing, discover their aptitudes and develop their talents.
+                Over the years, I’ve seen students who once faced unimaginable
+                hardships rise to become scholars, leaders, and changemakers.
+                These stories fuel our mission daily. But none of this would be
+                possible without the unwavering support of our donors,
+                volunteers, and partners who share our vision of education
+                without boundaries. Together, we are not just teaching
+                subjects—we are restoring dignity, fostering resilience, and
+                building bridges to a brighter tomorrow. Join us in this
+                journey, because when we empower one learner, we transform
+                generations.
                 <br />
-                Blue Sky Academy offers a unique, integrated curriculum,
-                perfectly combining the National Education Programme with the
-                International Education Programme provided by Cambridge
-                Assessment International Education (CAIE, formerly known as CIE
-                - Cambridge International Examinations, is one of the most
-                popular education programmes in the world and has been om offer
-                in more than 10,000 schools in 160 countries). Some key
-                guidelines for our education program are as follows:
-                <br />
-                Let students at all levels explore the world around them, learn
-                by asking questions, through researching for answers and by
-                writing down the results. • Ensure that students know their
-                mother tongue well to understand their motherland and the
-                Vietnamese people. Students learn and use English as their
-                second language from an early age to gain access to global
-                knowledge. • Increase practical learning of any subject through
-                the use and application of science and information technology. •
-                The Comprehensive Development Programme at BSA provides
-                alternative learning oppoturnities for students through a
-                variety of activities supporting the comprehensive development
-                of academic and extra-curricular fields as well as necessary
-                life skills. • Participate in all extracurricular, outdoor and
-                social activities in order to contribute to personality
-                development. Teachers and students never stop improving their
-                own communication skills; through the activities inside and
-                outside the classroom, they strengthen the bond among
-                themselves.
-                <br />
-                We are delighted to welcome all parents, teachers and staff as
-                an inseparable part in the development of the Blue Sky Academy.
+                With gratitude and hope
+                <p className=" text-2xl italic text-gray-200 font-extrabold">
+                  Faizan Ahmad, Director
+                </p>
               </div>
             </motion.div>
           </div>
