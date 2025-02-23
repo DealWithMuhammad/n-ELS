@@ -64,7 +64,7 @@ export default function Home({
         images={GALLERY_IMAGES}
       /> */}
       {/* <Events posts={allPosts} id="news" /> */}
-      {/* <Feedback id="parents" testimonials={testimonials} /> */}
+      <Feedback id="parents" testimonials={testimonials} />
       <Faq faq={faq} id="faq" />
       <CTA />
     </Layout>
