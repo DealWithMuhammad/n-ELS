@@ -215,7 +215,7 @@ const Navbar = ({
 
           <div>
             <a
-              href="https://elsystem.org/lms/index.php"
+              href="https://lms.elsystem.org/index.php"
               target="_blank"
               type="button"
               rel="noreferrer"
@@ -383,7 +383,7 @@ const Navbar = ({
             <div></div>
             <div className="absolute right-1  mt-4 mr-4 sm:hidden">
               <a
-                href="https://elsystem.org/lms/index.php"
+                href="https://lms.elsystem.org/index.php"
                 target="_blank"
                 type="button"
                 rel="noreferrer"
