@@ -199,7 +199,7 @@ const Faq = ({ id }) => {
 
   return (
     <motion.section
-      className="pt-20 pb-2 sm:pt-28"
+      className="pt-10 pb-2 sm:pt-10"
       id={id}
       viewport={{ once: true }}
       transition={{ duration: 1 }}
