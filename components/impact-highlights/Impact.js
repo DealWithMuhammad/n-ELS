@@ -6,7 +6,7 @@ function Impact() {
     { target: 600, label: "Current Enrolment" },
     { target: 100, label: "IGCSE Graduates" },
     { target: 10, label: "GED Graduates" },
-    { target: 50, label: "University Enrolment" },
+    { target: 50, label: "University Enrolments" },
   ];
 
   const Counter = ({ target, label }) => {
