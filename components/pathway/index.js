@@ -3,7 +3,7 @@ const Pathway = () => {
     <div className="max-w-xl mx-auto lg:max-w-screen-xl">
       <img
         className="object-cover"
-        src="/images/cambridgePathway.jpeg"
+        src="/images/cambridgePathway.jpg"
         alt="Cambridge"
       ></img>
     </div>
