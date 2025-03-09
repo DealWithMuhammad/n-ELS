@@ -10,6 +10,28 @@ const Feedback = ({ id }) => {
   // Updated testimonials data with studentId
   const testimonials = [
     {
+      type: "parent",
+      photo: {
+        url: "/images/students/student11.png",
+      },
+      parent: "Basit Huma",
+      description: "Mother Story",
+      content:
+        "Basit Huma arrived in Malaysia in *2017* seeking asylum, carrying dreams of safety and a brighter future for her two children. In *2018, her son **Freed Ahmad* (then in Grade 1) and daughter ... Read more",
+      studentId: "basit",
+    },
+    {
+      type: "student",
+      photo: {
+        url: "/images/students/student11.png",
+      },
+      parent: "Attia tul Hadi Satwa",
+      description: "IGCSE Graduate",
+      content:
+        "Attia arrived in Malaysia from Pakistan in *December 2016* at just *8 years old* and began her educational journey at *ELS Klang* in *January 2017, starting at Level 3. Over **nine ... Read more",
+      studentId: "attia",
+    },
+    {
       type: "student",
       photo: {
         url: "/images/students/faris.jpg",
@@ -120,16 +142,17 @@ const Feedback = ({ id }) => {
         "Najia Imran, daughter of Imran Khan, began her journey with Empowrr Learning System in *2016* at just *4 years old, enrolling in our Nursery program. Now **13, she has grown into ... Read more",
       studentId: "najia",
     },
+
     {
       type: "student",
       photo: {
-        url: "/images/students/student11.png",
+        url: "/images/students/student12.jpg",
       },
-      parent: "Attia tul Hadi Satwa",
-      description: "IGCSE Graduate",
+      parent: "Rana Arham",
+      description: "IGCSE Student",
       content:
-        "Attia arrived in Malaysia from Pakistan in *December 2016* at just *8 years old* and began her educational journey at *ELS Klang* in *January 2017, starting at Level 3. Over **nine ... Read more",
-      studentId: "attia",
+        "Rana Arham arrived in Malaysia in *2017* and immediately began his educational journey at Empowrr Learning System that same year. Over the past *eight years*, he has evolved from  ... Read more",
+      studentId: "rana",
     },
   ];
 
