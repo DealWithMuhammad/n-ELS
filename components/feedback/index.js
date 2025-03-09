@@ -10,28 +10,6 @@ const Feedback = ({ id }) => {
   // Updated testimonials data with studentId
   const testimonials = [
     {
-      type: "parent",
-      photo: {
-        url: "/images/students/student11.png",
-      },
-      parent: "Basit Huma",
-      description: "Mother Story",
-      content:
-        "Basit Huma arrived in Malaysia in *2017* seeking asylum, carrying dreams of safety and a brighter future for her two children. In *2018, her son **Freed Ahmad* (then in Grade 1) and daughter ... Read more",
-      studentId: "basit",
-    },
-    {
-      type: "student",
-      photo: {
-        url: "/images/students/student11.png",
-      },
-      parent: "Attia tul Hadi Satwa",
-      description: "IGCSE Graduate",
-      content:
-        "Attia arrived in Malaysia from Pakistan in *December 2016* at just *8 years old* and began her educational journey at *ELS Klang* in *January 2017, starting at Level 3. Over **nine ... Read more",
-      studentId: "attia",
-    },
-    {
       type: "student",
       photo: {
         url: "/images/students/faris.jpg",
@@ -63,6 +41,28 @@ const Feedback = ({ id }) => {
       content:
         "Haniya Rehman came to Malaysia in 2016 and joined Empowrr Learning System in 2017. Over the past six years, she has grown into a bright and enthusiastic Grade 6 student, leaving a lasting ... Read more",
       studentId: "haniya",
+    },
+    {
+      type: "parent",
+      photo: {
+        url: "/images/students/student11.png",
+      },
+      parent: "Basit Huma",
+      description: "Mother Story",
+      content:
+        "Basit Huma arrived in Malaysia in *2017* seeking asylum, carrying dreams of safety and a brighter future for her two children. In *2018, her son **Freed Ahmad* (then in Grade 1) and daughter ... Read more",
+      studentId: "basit",
+    },
+    {
+      type: "student",
+      photo: {
+        url: "/images/students/student11.png",
+      },
+      parent: "Attia tul Hadi Satwa",
+      description: "IGCSE Graduate",
+      content:
+        "Attia arrived in Malaysia from Pakistan in *December 2016* at just *8 years old* and began her educational journey at *ELS Klang* in *January 2017, starting at Level 3. Over **nine ... Read more",
+      studentId: "attia",
     },
     {
       type: "student",
