@@ -1,107 +1,135 @@
-import { motion } from "framer-motion";
+"use client";
 import { useIntl } from "react-intl";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
-const TestimonialCard = ({ content, img, title, description, type }) => {
-  const { formatMessage: f } = useIntl();
-  const TYPE = {
-    teacher: f({
-      id: "Home.TeacherSharing",
-      defaultMessage: "Teacher's Sharing",
-    }),
-    parent: f({
-      id: "Home.ParentSharing",
-      defaultMessage: "Parent's Sharing",
-    }),
-    student: f({
-      id: "Home.StudentSharing",
-      defaultMessage: "Student's Sharing",
-    }),
-  };
-  return (
-    <motion.div className="px-8 py-8 mx-4 transition duration-300 ease-in-out bg-yellow-200 sm:px-6 md:px-8 lg:px-5 2xl:px-8 rounded-3xl h-full">
-      <h3 className="mb-5 text-xl font-bold text-purple-900 text-center">
-        {type ? TYPE[type] : ""}
-      </h3>
-      <img
-        src={img || "/api/placeholder/80/80"}
-        className="object-cover w-20 h-20 border-2 border-yellow-300 rounded-full filter drop-shadow-2xl mx-auto"
-        alt="Testimonial profile"
-      />
-      <p className="mt-3 text-lg font-bold text-purple-900 text-center">
-        {title}
-      </p>
-      <p className="mt-1 text-lg text-gray-800 italic text-center">
-        {description}
-      </p>
-      <p className="mt-5 text-lg text-purple-800">{content}</p>
-    </motion.div>
-  );
-};
+import TestimonialCard from "./TestimonialCard";
 
 const Feedback = ({ id }) => {
   const { formatMessage: f } = useIntl();
 
-  // Dummy testimonials data
+  // Updated testimonials data with studentId
   const testimonials = [
-    // {
-    //   type: "parent",
-    //   photo: { url: "/api/placeholder/80/80" },
-    //   parent: "Sarah Johnson",
-    //   description: "Parent of Alex, Grade 3",
-    //   content:
-    //     "The personalized attention my child receives here is incredible. The teachers truly understand his learning style and have helped him grow both academically and socially.",
-    // },
     {
-      type: "teacher",
+      type: "student",
       photo: {
-        url: "https://images.ctfassets.net/573l3izhxytz/FA6ipyAauCdssSGFDXCD9/0d4029070b8e1f8c818e092bfdcd97d6/L___Ho__ng_L__m-_Micheal.HEIC",
+        url: "/images/students/faris.jpg",
       },
-      parent: "Mr. David Chen",
-      description: "Mathematics Teacher",
+      parent: "Faris Mehmood",
+      description: "Grade 6 student",
       content:
-        "Being part of this educational community is truly rewarding. We focus on developing not just academic skills, but also critical thinking and creativity in our students.",
+        "Faris, a Grade 6 student at ELS, has spent eight years growing into a confident, curious, and kind-hearted learner. His journey reflects the power of hard work and a nurturing environment... Read more",
+      studentId: "faris",
     },
     {
       type: "student",
       photo: {
-        url: "https://images.ctfassets.net/573l3izhxytz/2zMliQa9sz2aS7ZIPgqjHR/f105225273a1f6be0aa392f503b31306/mr._chow.jpg.png",
+        url: "/images/students/student1.jpg",
       },
-      parent: "Emily Wang",
+      parent: "Hibat Ul Naseer Bareera",
       description: "Grade 5 Student",
       content:
-        "I love coming to school every day! The teachers make learning fun and interesting. I've made great friends and learned so much this year.",
-    },
-    {
-      type: "parent",
-      photo: {
-        url: "https://images.ctfassets.net/573l3izhxytz/28JtfqL1qPTNfGb0GETrTT/57fd88fe854e2d3e6993e9444b614382/Dam_Thi_men.jpg",
-      },
-      parent: "Michael Rodriguez",
-      description: "Parent of twins in Grade 4",
-      content:
-        "The school's approach to handling different learning paces is exceptional. Both my children receive the attention they need despite having different strengths.",
-    },
-    {
-      type: "teacher",
-      photo: {
-        url: "https://images.ctfassets.net/573l3izhxytz/42tRcAncImAIR4EzeJ1uGc/10b1f6c55e8a809f7ac0da313ab47788/7.JPG",
-      },
-      parent: "Ms. Lisa Thompson",
-      description: "Science Department Head",
-      content:
-        "Our hands-on learning approach really engages students. It's wonderful to see their eyes light up during experiments and discovery sessions.",
+        "Hibat Ul Naseer Bareera, affectionately known as Bareera, came to Malaysia in 2015 and joined Empowrr Learning System in 2017. Over the past five years, she has grown into a bright and ... Read more",
+      studentId: "bareera",
     },
     {
       type: "student",
       photo: {
-        url: "https://images.ctfassets.net/573l3izhxytz/5KJXf5mc0ZrBGvncZvdLHJ/8344b910b1595b74f61a95ed429f4bc5/H___Ph____ng-Cathy.jpeg",
+        url: "/images/students/student2.jpg",
       },
-      parent: "Kevin Park",
+      parent: "Haniya Rehman",
       description: "Grade 6 Student",
       content:
-        "The after-school programs are amazing! I've learned coding and joined the robotics club. The teachers always encourage us to try new things.",
+        "Haniya Rehman came to Malaysia in 2016 and joined Empowrr Learning System in 2017. Over the past six years, she has grown into a bright and enthusiastic Grade 6 student, leaving a lasting ... Read more",
+      studentId: "haniya",
+    },
+    {
+      type: "student",
+      photo: {
+        url: "/images/students/student3.jpg",
+      },
+      parent: "Aashar Hayat Khan",
+      description: "Grade 7 Student",
+      content:
+        "Aashar Hayat Khan came to Malaysia in 2020 and joined Empowrr Learning System in 2021. Over the past five years, he has grown into a confident and accomplished Grade 7 student, showcasing ... Read more",
+      studentId: "aashar",
+    },
+    {
+      type: "student",
+      photo: {
+        url: "/images/students/student4.jpg",
+      },
+      parent: "Rohan Ahmad Zafar",
+      description: "Grade 4 Student",
+      content:
+        "Rohan Ahmad Zafar came to Malaysia on 3rd November 2016 and joined Empowrr Learning System in 2020. Over the past five years, he has grown into a bright and inquisitive Grade 4 student, ... Read more",
+      studentId: "rohan",
+    },
+    {
+      type: "student",
+      photo: {
+        url: "/images/students/student5.jpg",
+      },
+      parent: "Ummat UL Mateen",
+      description: "Grade 6 Student",
+      content:
+        "Ummat UL Mateen came to Malaysia in 2016 and joined Empowrr Learning System in 2018. Over the past seven years, she has grown into a confident and accomplished Grade 6 student, leaving ... Read more",
+      studentId: "ummat",
+    },
+    {
+      type: "student",
+      photo: {
+        url: "/images/students/student6.jpg",
+      },
+      parent: "Neha Naveed",
+      description: "Grade 5 Student",
+      content:
+        "Neha Naveed came to Malaysia in 2016 and joined Empowrr Learning System in 2019. Over the past six years, she has grown into a bright and enthusiastic Grade 5 student, capturing the ... Read more",
+      studentId: "neha",
+    },
+
+    {
+      type: "student",
+      photo: {
+        url: "/images/students/student8.jpg",
+      },
+      parent: "Ata ul Shafi",
+      description: "Grade 1 Student",
+      content:
+        "Ata ul Shafi came to Malaysia in 2018 and joined Empowrr Learning System in 2022. Over the past three years, he has blossomed into an enthusiastic and curious Grade 1 student, winning ... Read more",
+      studentId: "ata",
+    },
+    {
+      type: "student",
+      photo: {
+        url: "/images/students/student9.jpg",
+      },
+      parent: "Muqadas",
+      description: "Grade 7 Student",
+      content:
+        "Muqadas, 16, came to Malaysia in 2017 and joined Empowrr Learning System in 2025. Though she has only been with us for two months, her Grade 7 journey here has already reignited her ... Read more ",
+      studentId: "muq",
+    },
+    {
+      type: "student",
+      photo: {
+        url: "/images/students/student10.jpg",
+      },
+      parent: "Najia Imran",
+      description: "IGCSE Student",
+      content:
+        "Najia Imran, daughter of Imran Khan, began her journey with Empowrr Learning System in *2016* at just *4 years old, enrolling in our Nursery program. Now **13, she has grown into ... Read more",
+      studentId: "najia",
+    },
+    {
+      type: "student",
+      photo: {
+        url: "/images/students/student11.png",
+      },
+      parent: "Attia tul Hadi Satwa",
+      description: "IGCSE Graduate",
+      content:
+        "Attia arrived in Malaysia from Pakistan in *December 2016* at just *8 years old* and began her educational journey at *ELS Klang* in *January 2017, starting at Level 3. Over **nine ... Read more",
+      studentId: "attia",
     },
   ];
 
@@ -125,7 +153,7 @@ const Feedback = ({ id }) => {
   };
 
   return (
-    <section id={id} className="md:mt-12 bg-primary-100">
+    <section id={id || "testimonials"} className="md:mt-12 bg-primary-100">
       <div
         style={{
           backgroundImage: "url(/images/mask.png)",
@@ -161,6 +189,7 @@ const Feedback = ({ id }) => {
                   title={item?.parent}
                   description={item?.description}
                   type={item?.type}
+                  studentId={item?.studentId}
                 />
               ))}
             </Carousel>

@@ -3,11 +3,7 @@ import CTA from "../../../components/cta";
 import Layout from "../../../components/layout";
 import Pagination from "../../../components/pagination";
 import PostList from "../../../components/post-list";
-import {
-  getNavigation,
-  getPaginatedPosts,
-  
-} from "../../../lib/api";
+import { getNavigation, getPaginatedPosts } from "../../../lib/api";
 import { POSTS_PER_PAGE } from "../../../lib/constant";
 
 export default function PostsIndexPage({
@@ -39,7 +35,6 @@ export async function getStaticPaths({ locales }) {
    * Start from page 2, so we don't replicate /blog
    * which is page 1
    */
- 
 
   return {
     paths,
