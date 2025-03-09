@@ -28,7 +28,7 @@ const Feedback = ({ id }) => {
       parent: "Hibat Ul Naseer Bareera",
       description: "Grade 5 Student",
       content:
-        "Hibat Ul Naseer Bareera, affectionately known as Bareera, came to Malaysia in 2015 and joined Empowrr Learning System in 2017. Over the past five years, she has grown into a bright and ... Read more",
+        "Hibat Ul Naseer Bareera, affectionately known as Bareera, came to Malaysia in 2015 and joined Empower Learning System in 2017. Over the past five years, she has grown into a bright and ... Read more",
       studentId: "bareera",
     },
     {
@@ -39,7 +39,7 @@ const Feedback = ({ id }) => {
       parent: "Haniya Rehman",
       description: "Grade 6 Student",
       content:
-        "Haniya Rehman came to Malaysia in 2016 and joined Empowrr Learning System in 2017. Over the past six years, she has grown into a bright and enthusiastic Grade 6 student, leaving a lasting ... Read more",
+        "Haniya Rehman came to Malaysia in 2016 and joined Empower Learning System in 2017. Over the past six years, she has grown into a bright and enthusiastic Grade 6 student, leaving a lasting ... Read more",
       studentId: "haniya",
     },
     {
@@ -72,7 +72,7 @@ const Feedback = ({ id }) => {
       parent: "Aashar Hayat Khan",
       description: "Grade 7 Student",
       content:
-        "Aashar Hayat Khan came to Malaysia in 2020 and joined Empowrr Learning System in 2021. Over the past five years, he has grown into a confident and accomplished Grade 7 student, showcasing ... Read more",
+        "Aashar Hayat Khan came to Malaysia in 2020 and joined Empower Learning System in 2021. Over the past five years, he has grown into a confident and accomplished Grade 7 student, showcasing ... Read more",
       studentId: "aashar",
     },
     {
@@ -83,7 +83,7 @@ const Feedback = ({ id }) => {
       parent: "Rohan Ahmad Zafar",
       description: "Grade 4 Student",
       content:
-        "Rohan Ahmad Zafar came to Malaysia on 3rd November 2016 and joined Empowrr Learning System in 2020. Over the past five years, he has grown into a bright and inquisitive Grade 4 student, ... Read more",
+        "Rohan Ahmad Zafar came to Malaysia on 3rd November 2016 and joined Empower Learning System in 2020. Over the past five years, he has grown into a bright and inquisitive Grade 4 student, ... Read more",
       studentId: "rohan",
     },
     {
@@ -94,7 +94,7 @@ const Feedback = ({ id }) => {
       parent: "Ummat UL Mateen",
       description: "Grade 6 Student",
       content:
-        "Ummat UL Mateen came to Malaysia in 2016 and joined Empowrr Learning System in 2018. Over the past seven years, she has grown into a confident and accomplished Grade 6 student, leaving ... Read more",
+        "Ummat UL Mateen came to Malaysia in 2016 and joined Empower Learning System in 2018. Over the past seven years, she has grown into a confident and accomplished Grade 6 student, leaving ... Read more",
       studentId: "ummat",
     },
     {
@@ -105,7 +105,7 @@ const Feedback = ({ id }) => {
       parent: "Neha Naveed",
       description: "Grade 5 Student",
       content:
-        "Neha Naveed came to Malaysia in 2016 and joined Empowrr Learning System in 2019. Over the past six years, she has grown into a bright and enthusiastic Grade 5 student, capturing the ... Read more",
+        "Neha Naveed came to Malaysia in 2016 and joined Empower Learning System in 2019. Over the past six years, she has grown into a bright and enthusiastic Grade 5 student, capturing the ... Read more",
       studentId: "neha",
     },
 
@@ -117,7 +117,7 @@ const Feedback = ({ id }) => {
       parent: "Ata ul Shafi",
       description: "Grade 1 Student",
       content:
-        "Ata ul Shafi came to Malaysia in 2018 and joined Empowrr Learning System in 2022. Over the past three years, he has blossomed into an enthusiastic and curious Grade 1 student, winning ... Read more",
+        "Ata ul Shafi came to Malaysia in 2018 and joined Empower Learning System in 2022. Over the past three years, he has blossomed into an enthusiastic and curious Grade 1 student, winning ... Read more",
       studentId: "ata",
     },
     {
@@ -128,7 +128,7 @@ const Feedback = ({ id }) => {
       parent: "Muqadas",
       description: "Grade 7 Student",
       content:
-        "Muqadas, 16, came to Malaysia in 2017 and joined Empowrr Learning System in 2025. Though she has only been with us for two months, her Grade 7 journey here has already reignited her ... Read more ",
+        "Muqadas, 16, came to Malaysia in 2017 and joined Empower Learning System in 2025. Though she has only been with us for two months, her Grade 7 journey here has already reignited her ... Read more ",
       studentId: "muq",
     },
     {
@@ -139,7 +139,7 @@ const Feedback = ({ id }) => {
       parent: "Najia Imran",
       description: "IGCSE Student",
       content:
-        "Najia Imran, daughter of Imran Khan, began her journey with Empowrr Learning System in *2016* at just *4 years old, enrolling in our Nursery program. Now **13, she has grown into ... Read more",
+        "Najia Imran, daughter of Imran Khan, began her journey with Empower Learning System in *2016* at just *4 years old, enrolling in our Nursery program. Now **13, she has grown into ... Read more",
       studentId: "najia",
     },
 
@@ -151,7 +151,7 @@ const Feedback = ({ id }) => {
       parent: "Rana Arham",
       description: "IGCSE Student",
       content:
-        "Rana Arham arrived in Malaysia in *2017* and immediately began his educational journey at Empowrr Learning System that same year. Over the past *eight years*, he has evolved from  ... Read more",
+        "Rana Arham arrived in Malaysia in *2017* and immediately began his educational journey at Empower Learning System that same year. Over the past *eight years*, he has evolved from  ... Read more",
       studentId: "rana",
     },
   ];
